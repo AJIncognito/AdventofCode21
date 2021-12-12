@@ -87,6 +87,7 @@ for i in range(len(oxygen_output)):
     if oxygen_output[i]:
         if str(oxygen_output[i])[0:1] == str(gamma_counter[0]):
             oxygen_output.pop(i)
+        if
 
 print("oxygen output: ", oxygen_output)
 #oxygen_rating = [ele for ele in example_input if ele[a: b]] == str(gamma_counter[0])
